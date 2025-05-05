@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    padding: 15px 100px;
+    gap: 30%;
+    align-items: center;
+
+}
+
+header nav {
+    display: flex;
+    gap: 50px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+header nav a:hover {
+    color: brown;
+    font-size: 15px;
+
+}
+
+.intro {
+    height: 70vh;
+    background-image: url(data:image/jpeg;base64,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);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+
+
+}
+
+.intro .content {
+    padding: 50px;
+    width: 50%;
+
+
+
+}
+
+.intro .content h1 {
+    margin: 15px 0;
+    font-size: 50px;
+
+}
+
+.intro .content button {
+    background-color: bisque;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.intro img {
+    border-radius: 20px;
+}
+
+.pluses {
+    display: flex;
+    width: 80%;
+    gap: 50px;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+.pluses .plus {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.pluses .plus img {
+    padding-top: 30px;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+}
+
+.history {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.zagolovok {
+    float: right;
+}
+
+.zagolovok img {
+    width: 400px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.food {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    max-width: 1260px;
+}
+.section{
+    justify-content: center;
+    display: flex;
+    margin: 30px;
+}
+
+.list{
+    width: 250px;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+.sait{
+    justify-content: center;
+    display: flex;
+    margin: 30px;
+}
+.container{
+    background-color: bisque;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 30px;
+}
+
+
+
+
+
+
+@media (max-width:1680px) {
+    .intro img {
+        width: 80%;
+    }
+
+}
+
+
+@media (max-width: 1288px) {
+    header {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .intro {
+        flex-direction: column;
+    }
+
+    .img {
+        width: 80%;
+    }
+
+    .intro img {
+        width: 80%;
+    }
+
+}
+
+@media (max-width:768px) {
+    .intro .content h1 {
+        font-size: 28px;
+    }
+}
+
+
+@media (max-width:480px) {
+    header nav {
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
